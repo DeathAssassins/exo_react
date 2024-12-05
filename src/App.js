@@ -42,6 +42,7 @@ const App = (props) => {
 
   return (
     <>
+      <br></br>
       <input
         type="text"
         placeholder="Entrez votre nom"
@@ -57,6 +58,7 @@ const App = (props) => {
       <div>
         Bonjour {nom} {prenom}
       </div>
+      <h1>compteur</h1>
       <button onClick={incrementerCompteur}>Incrémenter : {compteur}</button>
       <h1>Liste de courses</h1>
       <input
